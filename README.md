@@ -1,0 +1,2 @@
+# SpringMvcJunit
+test project only
