@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import com.test.entity.po.NamePO;
-@Repository
 public interface NameDao  extends JpaRepository<NamePO, Long>, JpaSpecificationExecutor<NamePO>{
 
 }
