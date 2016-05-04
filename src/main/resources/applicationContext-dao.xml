@@ -33,7 +33,7 @@
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 		<property name="packagesToScan" value="com.test.entity.po"/>
 		<property name="dataSource" ref="dataSource" />
-		<property name="persistenceXmlLocation" value="classpath:/persistence.xml" />
+		<!-- <property name="persistenceXmlLocation" value="classpath:/persistence.xml" /> -->
 		<property name="persistenceUnitName" value="persistenceUnit" />
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
